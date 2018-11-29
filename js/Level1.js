@@ -196,7 +196,7 @@ function collectRuby (player, ruby)
 
 	 //this.add.text(800, 16, 'Score:'+ score, { fontSize: '32px', fill: '#ffffff' });
 
-   if (score === 15)
+   if (score === 120)
    {
       gameText = this.add.text(1800, 300, ' Mission Complete!', { fontSize: '35px', fill: '#F00000', backgroundColor: '#ffffff' });
 	  gameText = this.add.text(1000, 300, ' Mission Complete!', { fontSize: '35px', fill: '#F00000', backgroundColor: '#000000' });
